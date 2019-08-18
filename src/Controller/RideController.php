@@ -14,7 +14,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class RideController extends AbstractController
 {
     /**
-     * @Route("/store", methods={"POST"})
+     * @Route("/api/store", methods={"POST"})
      */
     public function store(
         Request $request,
@@ -59,7 +59,7 @@ class RideController extends AbstractController
     }
 
     /**
-     * @Route("/store", methods="OPTIONS")
+     * @Route("/api/store", methods="OPTIONS")
      */
     public function options(): Response
     {

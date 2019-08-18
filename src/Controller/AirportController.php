@@ -14,7 +14,7 @@ use Symfony\Component\Validator\Validator\ValidatorInterface;
 class AirportController extends AbstractController
 {
     /**
-     * @Route("/getAirports", methods={"GET"})
+     * @Route("/api/getAirports", methods={"GET"})
      */
     public function index()
     {
